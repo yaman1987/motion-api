@@ -22,6 +22,7 @@ namespace motion_api.Controllers
         // GET api/values/5
         public string Get(int id)
         {
+            string msg = "Hiii i made some changs";
             return strings.ElementAtOrDefault(id);
         }
         [HttpPost]
